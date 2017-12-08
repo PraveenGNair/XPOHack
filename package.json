@@ -1,0 +1,22 @@
+{
+  "name": "xpoapi",
+  "version": "1.0.0",
+  "description": "Order track API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PraveenGNair/AIBots.git"
+  },
+  "author": "Praveen G Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PraveenGNair/AIBots/issues"
+  },
+  "homepage": "https://github.com/PraveenGNair/AIBots#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
