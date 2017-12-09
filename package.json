@@ -2,9 +2,10 @@
   "name": "xpoapi",
   "version": "1.0.0",
   "description": "Order track API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+  "deploy": "gcloud app deploy",
+    "start": "node server.js"
   }, 
   "engines": {
     "node": ">=4.3.2"
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/PraveenGNair/AIBots#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+	 "aws-sdk": "latest"
   }
 }
